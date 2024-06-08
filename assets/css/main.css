@@ -1,0 +1,147 @@
+body {
+    color: #172039;
+    font-family: "Mulish", sans-serif;
+    background-color: #f5f6ff;
+    width: 100%;
+}
+.container {
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 24px;
+    width: 483px;
+    background-color: #fff;
+    padding: 56px;
+}
+.title {
+    line-height: 30px;
+    font-size: 24px;
+    font-weight: 700;
+}
+.raiting {
+    margin-top: 16px;
+    display: inline-block;
+    line-height: 20px;
+}
+.star {
+    width: 20px;
+    height: 20px;
+}
+.lite-gray {
+    color: #747988;
+}
+.amount {
+    margin-top: 24px;
+    line-height: 40px;
+    font-size: 32px;
+}
+.tab-section {
+    margin-top: 24px;
+}
+.tabs {
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    background-color: #f5f6ff;
+    border-radius: 16px;
+}
+.tab {
+    margin: 8px;
+    padding: 10px;
+    text-align: center;
+    width: 50%;
+    border-radius: 13px;
+}
+.tab.active {
+    background-color: #fff;
+    box-shadow: 0px 5px 5px 0px #002ca80f;
+}
+.visible {
+    z-index: 10;
+}
+.tab-2-content {
+    margin-top: 24px;
+}
+.search {
+    height: 53px;
+    line-height: 53px;
+    border-radius: 16px;
+    border: 1px solid #d7d9e8;
+    background-color: transparent;
+    padding: 10px;
+    line-height: 32px;
+}
+.search-icon {
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    font-size: 25px;
+    text-align: center;
+    margin-right: 13px;
+}
+.search input {
+    height: 32px;
+    font-size: 16px;
+    line-height: 32px;
+    width: calc(100% - 45px);
+    background-color: transparent;
+    border: 0px solid;
+}
+input:focus {
+    outline: none;
+}
+.list-item-block {
+    margin-top: 24px;
+    border-radius: 16px;
+    border: 1px solid #d7d9e8;
+    padding: 16px;
+    line-height: 25px;
+}
+.list-item-block .btn{
+    width: 100%;
+    display: block;
+    border-radius: 16px;
+    padding: 16px;
+    background: #4571F5;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 16px;
+    font-size: 18px;
+    opacity: 0.8;
+}
+.list-item-block .btn:hover{
+    opacity: 0.9;
+}
+.list-item-block .btn:active{
+    opacity: 1;
+}
+.list-item-block > p:not(:last-child()) {
+    margin-top: 8px;
+}
+.first-line {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+}
+.second-line {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.third-line {
+    line-height: 17px;
+    font-weight: 400;
+    font-size: 14px;
+    opacity: 0.5;
+}
+.list-block {
+    margin-top: 24px;
+}
+.list-block .title {
+    line-height: 18px;
+    font-weight: 700;
+    font-size: 14px;
+    opacity: 0.5;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
