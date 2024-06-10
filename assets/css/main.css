@@ -55,6 +55,10 @@ body {
     height: 20px;
 }
 
+.underline {
+    text-decoration: underline;
+}
+
 .lite-gray {
     color: #747988;
 }
